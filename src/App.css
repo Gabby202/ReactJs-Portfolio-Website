@@ -1,0 +1,200 @@
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00d4ff,#097961,#020024);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00d4ff,#097961,#020024); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+// background: light-gray;  /* fallback for old browsers */
+//  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+//  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    overflow-y: scroll;
+}
+
+.avatar {
+
+  border-radius: 50%;
+}
+
+.landing-grid-about {
+//  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+//  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 5em;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-left: 8em;
+  padding-right: 8em;
+  overflow-y: scroll;
+}
+
+.material-icons {
+  color: black;
+}
+
+.about-text h5 {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.banner-text-about {
+  background-color: #333333;
+  //opacity: .8;
+  width: 75%;
+  margin: auto;
+}
+
+.banner-text-about h1, h3, p, h4,h5,h6 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+
+}
+
+i {
+  color: white;
+}
+
+
+.projects-grid {
+  display: flex;
+}
+
+.centerH {
+  text-align: center;
+}
+
+.banner-img{
+  padding-top: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 1em;
+
+}
+
+.how-to{
+  padding-bottom: 5em;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+html { overflow-y: scroll; }
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+.contact-list a {
+  color:#b8183d;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 400px;
+  padding-top: 10em;
+  border-radius: 20px;
+}
+
+.banner-text {
+  padding-top:10%;
+  background-color: #333333;
+  /* opacity: .8; */
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+
+}
+
+
+
+.banner-text h1, h3 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+a {
+  color: #b8183d;
+}
+
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}

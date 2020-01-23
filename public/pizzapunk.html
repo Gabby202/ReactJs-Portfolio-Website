@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | PizzaPunk</title>
+    <link rel="shortcut icon" href="PizzaTemplateData/favicon.ico">
+    <link rel="stylesheet" href="PizzaTemplateData/style.css">
+    <script src="PizzaTemplateData/UnityProgress.js"></script>
+    <script src="PizzaBuild/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "PizzaBuild/PizzaPunk_WebGL.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class = "how-to">
+      <h4>How to play:</h4>
+      <p>Go to the top right purple building, talk to owner by pressing [Space]. When you recieve the breadstick, go outside and fight the ninjas with [Space]. The last ninja you defeat will
+        drop a pizza, pick it up and dilever it at the purple arrow. When delivered, the customer will give you a [Key]. Go outside and follow the arrow, using the key by pressing [Space] at the
+        barrier in the next level. Enjoy!.
+    </div>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 100vh"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">PizzaPunk</div>
+      </div>
+    </div>
+  </body>
+</html>
